@@ -6,13 +6,13 @@ window.init_redactor = function(){
     params = csrf_param + "=" + encodeURIComponent(csrf_token);
   }
   $('.redactor').redactor(
-      { 
+      {
         cleanup: false,
         tidyHtml: false,
         convertDivs: false,
         convertLinks: false,
         paragraphy: false,
-        deniedTags: ['html', 'head', 'link', 'body', 'meta', 'script', 'applet'],
+        deniedTags: ['html', 'head', 'link', 'body', 'meta', 'script', 'style', 'applet'],
         "imageUpload":"/redactor_rails/pictures?" + params,
         "imageGetJson":"/redactor_rails/pictures",
         "fileUpload":"/redactor_rails/documents?" + params,
