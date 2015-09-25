@@ -12,7 +12,7 @@ window.init_redactor = function(){
         convertDivs: false,
         convertLinks: false,
         paragraphy: false,
-        deniedTags: ['html', 'head', 'link', 'body', 'meta', 'script', 'style', 'applet'],
+        deniedTags: ['html', 'head', 'link', 'body', 'meta', 'script', 'applet'],
         "imageUpload":"/redactor_rails/pictures?" + params,
         "imageGetJson":"/redactor_rails/pictures",
         "fileUpload":"/redactor_rails/documents?" + params,
