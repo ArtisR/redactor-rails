@@ -8,15 +8,11 @@ This gem bundles Redactor version 9.1.9 which is the most recent version as of D
 
 Add this line to your application's Gemfile:
 
-    gem 'redactor-rails', github: "artursbraucs/redactor-rails"
+    gem 'redactor-rails', github: 'sergio1990/redactor-rails'
 
 And then execute:
 
     $ bundle install
-
-Add to application.rb:
-
-    require 'redactor-rails'
 
 ### Now generate models for store uploading files
 
