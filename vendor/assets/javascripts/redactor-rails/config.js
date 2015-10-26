@@ -7,6 +7,7 @@ window.init_redactor = function(){
   }
   $('.redactor').redactor(
       {
+        toolbarFixed: true,
         cleanup: false,
         tidyHtml: false,
         convertDivs: false,
