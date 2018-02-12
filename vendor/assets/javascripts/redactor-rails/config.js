@@ -23,5 +23,4 @@ window.init_redactor = function(){
       );
 }
 
-$(document).ready( window.init_redactor );
-$(window).bind('page:change', window.init_redactor);
+$(document).on('ready turbolinks:load page:change', window.init_redactor);
