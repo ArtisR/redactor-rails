@@ -14,7 +14,7 @@ module RedactorRails
             base.class_eval do
               self.table_name = "redactor_assets"
 
-              belongs_to :assetable, polymorphic: true
+              # belongs_to :assetable, polymorphic: true
             end
           end
         end

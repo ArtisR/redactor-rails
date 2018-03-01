@@ -14,10 +14,10 @@ window.init_redactor = function(){
         convertLinks: false,
         paragraphy: false,
         deniedTags: ['html', 'head', 'link', 'body', 'meta', 'script', 'applet'],
-        "imageUpload":"/redactor_rails/pictures?" + params,
-        "imageGetJson":"/redactor_rails/pictures",
-        "fileUpload":"/redactor_rails/documents?" + params,
-        "fileGetJson":"/redactor_rails/documents",
+        "imageUpload":"/redactor_rails/pictures.json?" + params,
+        "imageGetJson":"/redactor_rails/pictures.json",
+        "fileUpload":"/redactor_rails/documents.json?" + params,
+        "fileGetJson":"/redactor_rails/documents.json",
         "path":"/assets/redactor-rails",
         "css":"style.css"}
       );
